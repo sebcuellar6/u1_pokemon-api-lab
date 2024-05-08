@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(208, 194, 176);
+    font-family: jaro;
+    
+}
+
+
+#stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(12, 5, 149, 0.2);
+    
+    
+}
+
+#inputBar {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 24px; /* Set a default height */
+    width: 50%; /* Set a default width */
+}
+
+p {
+    background-color: rgba(44, 40, 114, 0.2);
+    border-radius: 100%;
+}
+
+#pokemonImage {
+    width: 40%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#pokemonName {
+    margin: 0 auto;
+    font-size: 500%;
+}
+
+
+
